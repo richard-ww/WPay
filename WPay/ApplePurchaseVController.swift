@@ -15,7 +15,6 @@ class ApplePurchaseVController: UIViewController, IApRequestResultsDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        self.naviTitle = "内购支付"
         /**启动IAP工具类*/
         IAPManager.shared().start()
         
