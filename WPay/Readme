@@ -1,0 +1,27 @@
+AliPay集成流程详解
+https://docs.open.alipay.com/59/103675/
+客户端demo：https://docs.open.alipay.com/54/104509/
+
+
+IAP — In-App Purchase
+https://developer.apple.com/in-app-purchase/
+
+步骤：
+1. 填写银行信息
+2. 新建产品价格
+3. app 调用
+
+stroeKit
+内购支付两个阶段：
+
+1.app直接向苹果服务器请求商品，支付阶段；
+2.苹果服务器返回凭证，app向公司服务器发送验证，公司再向苹果服务器验证阶段；
+
+沙盒测试账户：
+837731805test@qq.com
+Oiwetu9023
+
+
+https://itunesconnect.apple.com/login
+
+66testuser001@qq.com/Liuliutest1
