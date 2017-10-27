@@ -1,6 +1,6 @@
 # WPay
 
-##### IAP — In-App Purchase
+### IAP — In-App Purchase
 官方文档 https://developer.apple.com/in-app-purchase/
 
 步骤：
@@ -13,7 +13,7 @@
 1. app直接向苹果服务器请求商品，支付阶段；
 2. 苹果服务器返回凭证，app向公司服务器发送验证，公司再向苹果服务器验证阶段；
 
-##### AliPay - 移动支付
+### AliPay - 移动支付
 
 官方文档 https://docs.open.alipay.com/59/103675/
 客户端demo：https://docs.open.alipay.com/54/104509/
