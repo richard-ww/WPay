@@ -28,7 +28,6 @@
 		ED49FA421FA1B7C3007BBC4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED49FA411FA1B7C3007BBC4B /* UIKit.framework */; };
 		ED49FA441FA1B7CC007BBC4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED49FA431FA1B7CC007BBC4B /* Foundation.framework */; };
 		ED49FA471FA1BFD2007BBC4B /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49FA461FA1BFD2007BBC4B /* R.generated.swift */; };
-		ED49FA4B1FA1CB34007BBC4B /* README in Resources */ = {isa = PBXBuildFile; fileRef = ED49FA4A1FA1CB34007BBC4B /* README */; };
 		ED6AD0D41F99C0B50008871F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6AD0D31F99C0B50008871F /* AppDelegate.swift */; };
 		ED6AD0D61F99C0B50008871F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6AD0D51F99C0B50008871F /* ViewController.swift */; };
 		ED6AD0D91F99C0B50008871F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6AD0D71F99C0B50008871F /* Main.storyboard */; };
@@ -93,7 +92,6 @@
 		ED49FA411FA1B7C3007BBC4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ED49FA431FA1B7CC007BBC4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ED49FA461FA1BFD2007BBC4B /* R.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
-		ED49FA4A1FA1CB34007BBC4B /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		ED6AD0D01F99C0B50008871F /* WPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6AD0D31F99C0B50008871F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED6AD0D51F99C0B50008871F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +105,7 @@
 		ED6AD0EF1F99C0B50008871F /* WPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6AD0F31F99C0B50008871F /* WPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPayUITests.swift; sourceTree = "<group>"; };
 		ED6AD0F51F99C0B50008871F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDBC9EE71FA2DAA600A3480D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		EDD2B1081FA2C73700EFBC8D /* AliPayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliPayManager.swift; sourceTree = "<group>"; };
 		EDD2B1091FA2C73700EFBC8D /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		EDD2B10A1FA2C73700EFBC8D /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
@@ -351,7 +350,7 @@
 				ED28E4EB1FA1B2FF00ADFB2C /* WPay-Bridging-Header.h */,
 				ED49FA461FA1BFD2007BBC4B /* R.generated.swift */,
 				ED6AD0D71F99C0B50008871F /* Main.storyboard */,
-				ED49FA4A1FA1CB34007BBC4B /* README */,
+				EDBC9EE71FA2DAA600A3480D /* README.md */,
 				ED6AD0DA1F99C0B50008871F /* Assets.xcassets */,
 				ED6AD0DC1F99C0B50008871F /* LaunchScreen.storyboard */,
 				ED6AD0DF1F99C0B50008871F /* Info.plist */,
@@ -609,7 +608,6 @@
 				EDD2B1681FA2C74100EFBC8D /* AlipaySDK.bundle in Resources */,
 				ED28E4F31FA1B46700ADFB2C /* HUDView.xib in Resources */,
 				ED28E4E41FA1B1BB00ADFB2C /* ApplePurchaseVController.xib in Resources */,
-				ED49FA4B1FA1CB34007BBC4B /* README in Resources */,
 				ED28E4F51FA1B46D00ADFB2C /* Toast.xib in Resources */,
 				ED6AD0D91F99C0B50008871F /* Main.storyboard in Resources */,
 			);
