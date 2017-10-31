@@ -8,4 +8,8 @@ target 'WPay' do
     
     pod 'R.swift', '3.3'
     pod 'RxSwift', '3.5'
+    
+    pod 'InputKit' #输入限制
+    pod 'Format', '0.5.0' # Simple formatting syntax for decimal numbers, currency, mass, addresses, ordinal numbers and hexadecimal colors.
+    
 end
