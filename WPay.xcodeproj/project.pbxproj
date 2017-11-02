@@ -38,8 +38,38 @@
 		ED6FAA0F1FA99F770015D962 /* DesignerProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FAA0D1FA99F770015D962 /* DesignerProductDetailVC.swift */; };
 		ED6FAA101FA99F770015D962 /* DesignerProductDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED6FAA0E1FA99F770015D962 /* DesignerProductDetailVC.xib */; };
 		ED8AB0241FAA1772001CFAE7 /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB0231FAA1772001CFAE7 /* ConfigManager.swift */; };
-		ED8AB02C1FAA17FA001CFAE7 /* InsuranceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB02A1FAA17FA001CFAE7 /* InsuranceVC.swift */; };
-		ED8AB02D1FAA17FA001CFAE7 /* InsuranceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8AB02B1FAA17FA001CFAE7 /* InsuranceVC.xib */; };
+		ED8AB03F1FAB5021001CFAE7 /* EnsureInsuranceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB0311FAB5019001CFAE7 /* EnsureInsuranceVC.swift */; };
+		ED8AB0401FAB502A001CFAE7 /* EnsureInsuranceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8AB0321FAB5019001CFAE7 /* EnsureInsuranceVC.xib */; };
+		ED8AB0411FAB502F001CFAE7 /* InsuranceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB0331FAB5019001CFAE7 /* InsuranceVC.swift */; };
+		ED8AB0421FAB5034001CFAE7 /* InsuranceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8AB0341FAB5019001CFAE7 /* InsuranceVC.xib */; };
+		ED8AB0431FAB503C001CFAE7 /* InsuranceEditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB0371FAB5019001CFAE7 /* InsuranceEditCell.swift */; };
+		ED8AB0441FAB5041001CFAE7 /* InsuranceEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8AB0381FAB5019001CFAE7 /* InsuranceEditCell.xib */; };
+		ED8AB0451FAB505B001CFAE7 /* InsuranceInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB0391FAB5019001CFAE7 /* InsuranceInfoCell.swift */; };
+		ED8AB0461FAB505F001CFAE7 /* InsuranceInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8AB03A1FAB5019001CFAE7 /* InsuranceInfoCell.xib */; };
+		ED8AB0471FAB5062001CFAE7 /* InsuranceTtitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB03B1FAB5019001CFAE7 /* InsuranceTtitleCell.swift */; };
+		ED8AB0481FAB5068001CFAE7 /* InsuranceTtitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8AB03C1FAB5019001CFAE7 /* InsuranceTtitleCell.xib */; };
+		ED8AB0491FAB506B001CFAE7 /* InsurantPersonInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB03D1FAB5019001CFAE7 /* InsurantPersonInfoCell.swift */; };
+		ED8AB04A1FAB5070001CFAE7 /* InsurantPersonInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8AB03E1FAB5019001CFAE7 /* InsurantPersonInfoCell.xib */; };
+		ED8AB05D1FAB5676001CFAE7 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB04C1FAB566E001CFAE7 /* MenuItemView.swift */; };
+		ED8AB05E1FAB5679001CFAE7 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB04D1FAB566E001CFAE7 /* MenuView.swift */; };
+		ED8AB05F1FAB567C001CFAE7 /* PagingMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB04E1FAB566E001CFAE7 /* PagingMenuController.swift */; };
+		ED8AB0601FAB567F001CFAE7 /* PagingMenuOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB04F1FAB566E001CFAE7 /* PagingMenuOptions.swift */; };
+		ED8AB0611FAB5683001CFAE7 /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB0501FAB566E001CFAE7 /* PagingViewController.swift */; };
+		ED8AB0621FAB581D001CFAE7 /* GestureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB0521FAB566E001CFAE7 /* GestureHandler.swift */; };
+		ED8AB0631FAB5826001CFAE7 /* LabelSizeCalculatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB0531FAB566E001CFAE7 /* LabelSizeCalculatable.swift */; };
+		ED8AB0641FAB5826001CFAE7 /* MenuItemMultipliable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB0541FAB566E001CFAE7 /* MenuItemMultipliable.swift */; };
+		ED8AB0651FAB5826001CFAE7 /* MenuItemViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB0551FAB566E001CFAE7 /* MenuItemViewCustomizable.swift */; };
+		ED8AB0661FAB5826001CFAE7 /* MenuViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB0561FAB566E001CFAE7 /* MenuViewCustomizable.swift */; };
+		ED8AB0671FAB5826001CFAE7 /* Pagable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB0571FAB566E001CFAE7 /* Pagable.swift */; };
+		ED8AB0681FAB5826001CFAE7 /* PageDetectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB0581FAB566E001CFAE7 /* PageDetectable.swift */; };
+		ED8AB0691FAB5826001CFAE7 /* PageLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB0591FAB566E001CFAE7 /* PageLoadable.swift */; };
+		ED8AB06A1FAB5826001CFAE7 /* PagingMenuControllerCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB05A1FAB566E001CFAE7 /* PagingMenuControllerCustomizable.swift */; };
+		ED8AB06B1FAB5826001CFAE7 /* PagingValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB05B1FAB566E001CFAE7 /* PagingValidator.swift */; };
+		ED8AB06C1FAB5826001CFAE7 /* ViewCleanable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB05C1FAB566E001CFAE7 /* ViewCleanable.swift */; };
+		ED8AB06F1FAB5AB8001CFAE7 /* MaterialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB06D1FAB5AB8001CFAE7 /* MaterialVC.swift */; };
+		ED8AB0701FAB5AB8001CFAE7 /* MaterialVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8AB06E1FAB5AB8001CFAE7 /* MaterialVC.xib */; };
+		ED8AB0741FAB5DBD001CFAE7 /* MaterialListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB0721FAB5DBD001CFAE7 /* MaterialListCell.swift */; };
+		ED8AB0751FAB5DBD001CFAE7 /* MaterialListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8AB0731FAB5DBD001CFAE7 /* MaterialListCell.xib */; };
 		ED9421CD1FA706BF00DBC8AF /* AddMorePersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9421CB1FA706BF00DBC8AF /* AddMorePersonCell.swift */; };
 		ED9421CE1FA706BF00DBC8AF /* AddMorePersonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED9421CC1FA706BF00DBC8AF /* AddMorePersonCell.xib */; };
 		ED9421D11FA706DB00DBC8AF /* AddMorePersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9421CF1FA706DB00DBC8AF /* AddMorePersonVC.swift */; };
@@ -126,8 +156,38 @@
 		ED6FAA0D1FA99F770015D962 /* DesignerProductDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignerProductDetailVC.swift; sourceTree = "<group>"; };
 		ED6FAA0E1FA99F770015D962 /* DesignerProductDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DesignerProductDetailVC.xib; sourceTree = "<group>"; };
 		ED8AB0231FAA1772001CFAE7 /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
-		ED8AB02A1FAA17FA001CFAE7 /* InsuranceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceVC.swift; sourceTree = "<group>"; };
-		ED8AB02B1FAA17FA001CFAE7 /* InsuranceVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InsuranceVC.xib; sourceTree = "<group>"; };
+		ED8AB0311FAB5019001CFAE7 /* EnsureInsuranceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnsureInsuranceVC.swift; sourceTree = "<group>"; };
+		ED8AB0321FAB5019001CFAE7 /* EnsureInsuranceVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnsureInsuranceVC.xib; sourceTree = "<group>"; };
+		ED8AB0331FAB5019001CFAE7 /* InsuranceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceVC.swift; sourceTree = "<group>"; };
+		ED8AB0341FAB5019001CFAE7 /* InsuranceVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InsuranceVC.xib; sourceTree = "<group>"; };
+		ED8AB0371FAB5019001CFAE7 /* InsuranceEditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceEditCell.swift; sourceTree = "<group>"; };
+		ED8AB0381FAB5019001CFAE7 /* InsuranceEditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InsuranceEditCell.xib; sourceTree = "<group>"; };
+		ED8AB0391FAB5019001CFAE7 /* InsuranceInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceInfoCell.swift; sourceTree = "<group>"; };
+		ED8AB03A1FAB5019001CFAE7 /* InsuranceInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InsuranceInfoCell.xib; sourceTree = "<group>"; };
+		ED8AB03B1FAB5019001CFAE7 /* InsuranceTtitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceTtitleCell.swift; sourceTree = "<group>"; };
+		ED8AB03C1FAB5019001CFAE7 /* InsuranceTtitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InsuranceTtitleCell.xib; sourceTree = "<group>"; };
+		ED8AB03D1FAB5019001CFAE7 /* InsurantPersonInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsurantPersonInfoCell.swift; sourceTree = "<group>"; };
+		ED8AB03E1FAB5019001CFAE7 /* InsurantPersonInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InsurantPersonInfoCell.xib; sourceTree = "<group>"; };
+		ED8AB04C1FAB566E001CFAE7 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		ED8AB04D1FAB566E001CFAE7 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		ED8AB04E1FAB566E001CFAE7 /* PagingMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuController.swift; sourceTree = "<group>"; };
+		ED8AB04F1FAB566E001CFAE7 /* PagingMenuOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuOptions.swift; sourceTree = "<group>"; };
+		ED8AB0501FAB566E001CFAE7 /* PagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingViewController.swift; sourceTree = "<group>"; };
+		ED8AB0521FAB566E001CFAE7 /* GestureHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureHandler.swift; sourceTree = "<group>"; };
+		ED8AB0531FAB566E001CFAE7 /* LabelSizeCalculatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelSizeCalculatable.swift; sourceTree = "<group>"; };
+		ED8AB0541FAB566E001CFAE7 /* MenuItemMultipliable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemMultipliable.swift; sourceTree = "<group>"; };
+		ED8AB0551FAB566E001CFAE7 /* MenuItemViewCustomizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemViewCustomizable.swift; sourceTree = "<group>"; };
+		ED8AB0561FAB566E001CFAE7 /* MenuViewCustomizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewCustomizable.swift; sourceTree = "<group>"; };
+		ED8AB0571FAB566E001CFAE7 /* Pagable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagable.swift; sourceTree = "<group>"; };
+		ED8AB0581FAB566E001CFAE7 /* PageDetectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageDetectable.swift; sourceTree = "<group>"; };
+		ED8AB0591FAB566E001CFAE7 /* PageLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageLoadable.swift; sourceTree = "<group>"; };
+		ED8AB05A1FAB566E001CFAE7 /* PagingMenuControllerCustomizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuControllerCustomizable.swift; sourceTree = "<group>"; };
+		ED8AB05B1FAB566E001CFAE7 /* PagingValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingValidator.swift; sourceTree = "<group>"; };
+		ED8AB05C1FAB566E001CFAE7 /* ViewCleanable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCleanable.swift; sourceTree = "<group>"; };
+		ED8AB06D1FAB5AB8001CFAE7 /* MaterialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialVC.swift; sourceTree = "<group>"; };
+		ED8AB06E1FAB5AB8001CFAE7 /* MaterialVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaterialVC.xib; sourceTree = "<group>"; };
+		ED8AB0721FAB5DBD001CFAE7 /* MaterialListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialListCell.swift; sourceTree = "<group>"; };
+		ED8AB0731FAB5DBD001CFAE7 /* MaterialListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaterialListCell.xib; sourceTree = "<group>"; };
 		ED9421CB1FA706BF00DBC8AF /* AddMorePersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMorePersonCell.swift; sourceTree = "<group>"; };
 		ED9421CC1FA706BF00DBC8AF /* AddMorePersonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddMorePersonCell.xib; sourceTree = "<group>"; };
 		ED9421CF1FA706DB00DBC8AF /* AddMorePersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMorePersonVC.swift; sourceTree = "<group>"; };
@@ -337,6 +397,7 @@
 		ED49FA481FA1C1A4007BBC4B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ED8AB04B1FAB566E001CFAE7 /* PagingMenuController */,
 				ED28E4EF1FA1B45200ADFB2C /* HUDView */,
 				ED28E4EC1FA1B45200ADFB2C /* Toast */,
 			);
@@ -408,7 +469,10 @@
 		ED6FAA0A1FA95CFC0015D962 /* Material */ = {
 			isa = PBXGroup;
 			children = (
+				ED8AB0711FAB5D88001CFAE7 /* View */,
 				ED6FAA0B1FA9934F0015D962 /* cityCode.json */,
+				ED8AB06D1FAB5AB8001CFAE7 /* MaterialVC.swift */,
+				ED8AB06E1FAB5AB8001CFAE7 /* MaterialVC.xib */,
 			);
 			path = Material;
 			sourceTree = "<group>";
@@ -425,19 +489,77 @@
 			path = Designer;
 			sourceTree = "<group>";
 		};
-		ED8AB0251FAA17A6001CFAE7 /* Insurance */ = {
+		ED8AB0301FAB5019001CFAE7 /* Insurance */ = {
 			isa = PBXGroup;
 			children = (
-				ED8AB02F1FAA1C9A001CFAE7 /* View */,
-				ED8AB02A1FAA17FA001CFAE7 /* InsuranceVC.swift */,
-				ED8AB02B1FAA17FA001CFAE7 /* InsuranceVC.xib */,
+				ED8AB0311FAB5019001CFAE7 /* EnsureInsuranceVC.swift */,
+				ED8AB0321FAB5019001CFAE7 /* EnsureInsuranceVC.xib */,
+				ED8AB0331FAB5019001CFAE7 /* InsuranceVC.swift */,
+				ED8AB0341FAB5019001CFAE7 /* InsuranceVC.xib */,
+				ED8AB0351FAB5019001CFAE7 /* Model */,
+				ED8AB0361FAB5019001CFAE7 /* View */,
 			);
 			path = Insurance;
 			sourceTree = "<group>";
 		};
-		ED8AB02F1FAA1C9A001CFAE7 /* View */ = {
+		ED8AB0351FAB5019001CFAE7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED8AB0361FAB5019001CFAE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED8AB0371FAB5019001CFAE7 /* InsuranceEditCell.swift */,
+				ED8AB0381FAB5019001CFAE7 /* InsuranceEditCell.xib */,
+				ED8AB0391FAB5019001CFAE7 /* InsuranceInfoCell.swift */,
+				ED8AB03A1FAB5019001CFAE7 /* InsuranceInfoCell.xib */,
+				ED8AB03B1FAB5019001CFAE7 /* InsuranceTtitleCell.swift */,
+				ED8AB03C1FAB5019001CFAE7 /* InsuranceTtitleCell.xib */,
+				ED8AB03D1FAB5019001CFAE7 /* InsurantPersonInfoCell.swift */,
+				ED8AB03E1FAB5019001CFAE7 /* InsurantPersonInfoCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED8AB04B1FAB566E001CFAE7 /* PagingMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				ED8AB04C1FAB566E001CFAE7 /* MenuItemView.swift */,
+				ED8AB04D1FAB566E001CFAE7 /* MenuView.swift */,
+				ED8AB04E1FAB566E001CFAE7 /* PagingMenuController.swift */,
+				ED8AB04F1FAB566E001CFAE7 /* PagingMenuOptions.swift */,
+				ED8AB0501FAB566E001CFAE7 /* PagingViewController.swift */,
+				ED8AB0511FAB566E001CFAE7 /* Protocols */,
+			);
+			path = PagingMenuController;
+			sourceTree = "<group>";
+		};
+		ED8AB0511FAB566E001CFAE7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				ED8AB0521FAB566E001CFAE7 /* GestureHandler.swift */,
+				ED8AB0531FAB566E001CFAE7 /* LabelSizeCalculatable.swift */,
+				ED8AB0541FAB566E001CFAE7 /* MenuItemMultipliable.swift */,
+				ED8AB0551FAB566E001CFAE7 /* MenuItemViewCustomizable.swift */,
+				ED8AB0561FAB566E001CFAE7 /* MenuViewCustomizable.swift */,
+				ED8AB0571FAB566E001CFAE7 /* Pagable.swift */,
+				ED8AB0581FAB566E001CFAE7 /* PageDetectable.swift */,
+				ED8AB0591FAB566E001CFAE7 /* PageLoadable.swift */,
+				ED8AB05A1FAB566E001CFAE7 /* PagingMenuControllerCustomizable.swift */,
+				ED8AB05B1FAB566E001CFAE7 /* PagingValidator.swift */,
+				ED8AB05C1FAB566E001CFAE7 /* ViewCleanable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		ED8AB0711FAB5D88001CFAE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED8AB0721FAB5DBD001CFAE7 /* MaterialListCell.swift */,
+				ED8AB0731FAB5DBD001CFAE7 /* MaterialListCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -445,7 +567,7 @@
 		ED9421B91FA6FAD300DBC8AF /* Business */ = {
 			isa = PBXGroup;
 			children = (
-				ED8AB0251FAA17A6001CFAE7 /* Insurance */,
+				ED8AB0301FAB5019001CFAE7 /* Insurance */,
 				ED6FAA0C1FA99F300015D962 /* Designer */,
 				ED6FAA0A1FA95CFC0015D962 /* Material */,
 				ED9421C31FA7062A00DBC8AF /* AddMorePersonVC */,
@@ -747,19 +869,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED6FAA101FA99F770015D962 /* DesignerProductDetailVC.xib in Resources */,
+				ED8AB0421FAB5034001CFAE7 /* InsuranceVC.xib in Resources */,
 				EDA596A41FA9E78700EFA982 /* img165719ab05c30d4.jpg in Resources */,
-				ED8AB02D1FAA17FA001CFAE7 /* InsuranceVC.xib in Resources */,
 				ED6AD0DE1F99C0B50008871F /* LaunchScreen.storyboard in Resources */,
 				ED6AD0DB1F99C0B50008871F /* Assets.xcassets in Resources */,
 				EDD2B1681FA2C74100EFBC8D /* AlipaySDK.bundle in Resources */,
+				ED8AB0401FAB502A001CFAE7 /* EnsureInsuranceVC.xib in Resources */,
+				ED8AB0701FAB5AB8001CFAE7 /* MaterialVC.xib in Resources */,
 				ED28E4F31FA1B46700ADFB2C /* HUDView.xib in Resources */,
+				ED8AB0461FAB505F001CFAE7 /* InsuranceInfoCell.xib in Resources */,
 				ED28E4E41FA1B1BB00ADFB2C /* ApplePurchaseVController.xib in Resources */,
+				ED8AB0481FAB5068001CFAE7 /* InsuranceTtitleCell.xib in Resources */,
+				ED8AB0751FAB5DBD001CFAE7 /* MaterialListCell.xib in Resources */,
 				ED9421D21FA706DB00DBC8AF /* AddMorePersonVC.xib in Resources */,
 				EDA5969A1FA9CFB400EFA982 /* AutoImageCell.xib in Resources */,
 				ED9421CE1FA706BF00DBC8AF /* AddMorePersonCell.xib in Resources */,
 				ED28E4F51FA1B46D00ADFB2C /* Toast.xib in Resources */,
 				ED6AD0D91F99C0B50008871F /* Main.storyboard in Resources */,
 				EDA596A21FA9E3A400EFA982 /* img17577f745777a97.jpg in Resources */,
+				ED8AB0441FAB5041001CFAE7 /* InsuranceEditCell.xib in Resources */,
+				ED8AB04A1FAB5070001CFAE7 /* InsurantPersonInfoCell.xib in Resources */,
 				EDA596B21FA9F73E00EFA982 /* AutoTextCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -859,28 +988,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED8AB0241FAA1772001CFAE7 /* ConfigManager.swift in Sources */,
+				ED8AB06F1FAB5AB8001CFAE7 /* MaterialVC.swift in Sources */,
+				ED8AB0491FAB506B001CFAE7 /* InsurantPersonInfoCell.swift in Sources */,
+				ED8AB05E1FAB5679001CFAE7 /* MenuView.swift in Sources */,
+				ED8AB0641FAB5826001CFAE7 /* MenuItemMultipliable.swift in Sources */,
+				ED8AB0691FAB5826001CFAE7 /* PageLoadable.swift in Sources */,
 				ED28E4E31FA1B1B300ADFB2C /* ApplePurchaseVController.swift in Sources */,
+				ED8AB05F1FAB567C001CFAE7 /* PagingMenuController.swift in Sources */,
+				ED8AB0661FAB5826001CFAE7 /* MenuViewCustomizable.swift in Sources */,
 				ED6AD0D61F99C0B50008871F /* ViewController.swift in Sources */,
+				ED8AB05D1FAB5676001CFAE7 /* MenuItemView.swift in Sources */,
 				ED28E4F21FA1B46400ADFB2C /* HUDView.swift in Sources */,
+				ED8AB0411FAB502F001CFAE7 /* InsuranceVC.swift in Sources */,
+				ED8AB0451FAB505B001CFAE7 /* InsuranceInfoCell.swift in Sources */,
+				ED8AB0601FAB567F001CFAE7 /* PagingMenuOptions.swift in Sources */,
+				ED8AB0651FAB5826001CFAE7 /* MenuItemViewCustomizable.swift in Sources */,
 				ED28E4DF1FA1B0AC00ADFB2C /* IAPManager.m in Sources */,
+				ED8AB03F1FAB5021001CFAE7 /* EnsureInsuranceVC.swift in Sources */,
 				EDD2B16E1FA2C75900EFBC8D /* NSDataEx.m in Sources */,
 				ED6628921FA85C7E00ECBE25 /* R.generated.swift in Sources */,
 				ED6FAA0F1FA99F770015D962 /* DesignerProductDetailVC.swift in Sources */,
 				ED6AD0D41F99C0B50008871F /* AppDelegate.swift in Sources */,
+				ED8AB0671FAB5826001CFAE7 /* Pagable.swift in Sources */,
 				ED9421D11FA706DB00DBC8AF /* AddMorePersonVC.swift in Sources */,
+				ED8AB0431FAB503C001CFAE7 /* InsuranceEditCell.swift in Sources */,
+				ED8AB0621FAB581D001CFAE7 /* GestureHandler.swift in Sources */,
 				EDA596AC1FA9F32B00EFA982 /* AspectFitImageView.m in Sources */,
 				EDD2B16C1FA2C75200EFBC8D /* Order.m in Sources */,
 				ED28E4E01FA1B0B000ADFB2C /* SandBoxHelper.m in Sources */,
-				ED8AB02C1FAA17FA001CFAE7 /* InsuranceVC.swift in Sources */,
+				ED8AB0611FAB5683001CFAE7 /* PagingViewController.swift in Sources */,
 				ED9421CD1FA706BF00DBC8AF /* AddMorePersonCell.swift in Sources */,
+				ED8AB0471FAB5062001CFAE7 /* InsuranceTtitleCell.swift in Sources */,
 				EDD2B16D1FA2C75600EFBC8D /* base64.m in Sources */,
 				EDD2B1711FA2C76200EFBC8D /* RSADataVerifier.m in Sources */,
 				EDD2B1671FA2C73C00EFBC8D /* AliPayManager.swift in Sources */,
 				EDD2B16F1FA2C75C00EFBC8D /* openssl_wrapper.m in Sources */,
+				ED8AB0741FAB5DBD001CFAE7 /* MaterialListCell.swift in Sources */,
+				ED8AB0631FAB5826001CFAE7 /* LabelSizeCalculatable.swift in Sources */,
+				ED8AB06C1FAB5826001CFAE7 /* ViewCleanable.swift in Sources */,
 				EDBC9BAC1FA858B60097DDE8 /* PersonModel.swift in Sources */,
 				EDD2B1701FA2C75F00EFBC8D /* RSADataSigner.m in Sources */,
+				ED8AB0681FAB5826001CFAE7 /* PageDetectable.swift in Sources */,
 				EDA596B11FA9F73E00EFA982 /* AutoTextCell.swift in Sources */,
+				ED8AB06B1FAB5826001CFAE7 /* PagingValidator.swift in Sources */,
 				EDA596991FA9CFAE00EFA982 /* AutoImageCell.swift in Sources */,
+				ED8AB06A1FAB5826001CFAE7 /* PagingMenuControllerCustomizable.swift in Sources */,
 				ED28E4F41FA1B46A00ADFB2C /* Toast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
