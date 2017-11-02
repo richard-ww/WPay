@@ -37,6 +37,9 @@
 		ED6AD0F41F99C0B50008871F /* WPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6AD0F31F99C0B50008871F /* WPayUITests.swift */; };
 		ED6FAA0F1FA99F770015D962 /* DesignerProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FAA0D1FA99F770015D962 /* DesignerProductDetailVC.swift */; };
 		ED6FAA101FA99F770015D962 /* DesignerProductDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED6FAA0E1FA99F770015D962 /* DesignerProductDetailVC.xib */; };
+		ED8AB0241FAA1772001CFAE7 /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB0231FAA1772001CFAE7 /* ConfigManager.swift */; };
+		ED8AB02C1FAA17FA001CFAE7 /* InsuranceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AB02A1FAA17FA001CFAE7 /* InsuranceVC.swift */; };
+		ED8AB02D1FAA17FA001CFAE7 /* InsuranceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8AB02B1FAA17FA001CFAE7 /* InsuranceVC.xib */; };
 		ED9421CD1FA706BF00DBC8AF /* AddMorePersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9421CB1FA706BF00DBC8AF /* AddMorePersonCell.swift */; };
 		ED9421CE1FA706BF00DBC8AF /* AddMorePersonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED9421CC1FA706BF00DBC8AF /* AddMorePersonCell.xib */; };
 		ED9421D11FA706DB00DBC8AF /* AddMorePersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9421CF1FA706DB00DBC8AF /* AddMorePersonVC.swift */; };
@@ -122,6 +125,9 @@
 		ED6FAA0B1FA9934F0015D962 /* cityCode.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cityCode.json; sourceTree = "<group>"; };
 		ED6FAA0D1FA99F770015D962 /* DesignerProductDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignerProductDetailVC.swift; sourceTree = "<group>"; };
 		ED6FAA0E1FA99F770015D962 /* DesignerProductDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DesignerProductDetailVC.xib; sourceTree = "<group>"; };
+		ED8AB0231FAA1772001CFAE7 /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
+		ED8AB02A1FAA17FA001CFAE7 /* InsuranceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceVC.swift; sourceTree = "<group>"; };
+		ED8AB02B1FAA17FA001CFAE7 /* InsuranceVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InsuranceVC.xib; sourceTree = "<group>"; };
 		ED9421CB1FA706BF00DBC8AF /* AddMorePersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMorePersonCell.swift; sourceTree = "<group>"; };
 		ED9421CC1FA706BF00DBC8AF /* AddMorePersonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddMorePersonCell.xib; sourceTree = "<group>"; };
 		ED9421CF1FA706DB00DBC8AF /* AddMorePersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMorePersonVC.swift; sourceTree = "<group>"; };
@@ -372,6 +378,7 @@
 			isa = PBXGroup;
 			children = (
 				ED6AD0D31F99C0B50008871F /* AppDelegate.swift */,
+				ED8AB0231FAA1772001CFAE7 /* ConfigManager.swift */,
 				ED9421B91FA6FAD300DBC8AF /* Business */,
 				ED4D16E81FA2C49F00E98403 /* ThirdParty */,
 				ED49FA481FA1C1A4007BBC4B /* Views */,
@@ -418,9 +425,27 @@
 			path = Designer;
 			sourceTree = "<group>";
 		};
+		ED8AB0251FAA17A6001CFAE7 /* Insurance */ = {
+			isa = PBXGroup;
+			children = (
+				ED8AB02F1FAA1C9A001CFAE7 /* View */,
+				ED8AB02A1FAA17FA001CFAE7 /* InsuranceVC.swift */,
+				ED8AB02B1FAA17FA001CFAE7 /* InsuranceVC.xib */,
+			);
+			path = Insurance;
+			sourceTree = "<group>";
+		};
+		ED8AB02F1FAA1C9A001CFAE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		ED9421B91FA6FAD300DBC8AF /* Business */ = {
 			isa = PBXGroup;
 			children = (
+				ED8AB0251FAA17A6001CFAE7 /* Insurance */,
 				ED6FAA0C1FA99F300015D962 /* Designer */,
 				ED6FAA0A1FA95CFC0015D962 /* Material */,
 				ED9421C31FA7062A00DBC8AF /* AddMorePersonVC */,
@@ -682,7 +707,7 @@
 				TargetAttributes = {
 					ED6AD0CF1F99C0B50008871F = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					ED6AD0E31F99C0B50008871F = {
 						CreatedOnToolsVersion = 9.0;
@@ -723,6 +748,7 @@
 			files = (
 				ED6FAA101FA99F770015D962 /* DesignerProductDetailVC.xib in Resources */,
 				EDA596A41FA9E78700EFA982 /* img165719ab05c30d4.jpg in Resources */,
+				ED8AB02D1FAA17FA001CFAE7 /* InsuranceVC.xib in Resources */,
 				ED6AD0DE1F99C0B50008871F /* LaunchScreen.storyboard in Resources */,
 				ED6AD0DB1F99C0B50008871F /* Assets.xcassets in Resources */,
 				EDD2B1681FA2C74100EFBC8D /* AlipaySDK.bundle in Resources */,
@@ -832,6 +858,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED8AB0241FAA1772001CFAE7 /* ConfigManager.swift in Sources */,
 				ED28E4E31FA1B1B300ADFB2C /* ApplePurchaseVController.swift in Sources */,
 				ED6AD0D61F99C0B50008871F /* ViewController.swift in Sources */,
 				ED28E4F21FA1B46400ADFB2C /* HUDView.swift in Sources */,
@@ -844,6 +871,7 @@
 				EDA596AC1FA9F32B00EFA982 /* AspectFitImageView.m in Sources */,
 				EDD2B16C1FA2C75200EFBC8D /* Order.m in Sources */,
 				ED28E4E01FA1B0B000ADFB2C /* SandBoxHelper.m in Sources */,
+				ED8AB02C1FAA17FA001CFAE7 /* InsuranceVC.swift in Sources */,
 				ED9421CD1FA706BF00DBC8AF /* AddMorePersonCell.swift in Sources */,
 				EDD2B16D1FA2C75600EFBC8D /* base64.m in Sources */,
 				EDD2B1711FA2C76200EFBC8D /* RSADataVerifier.m in Sources */,
@@ -1022,8 +1050,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 8BTUS4V99A;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38952CQSTY;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WPay/AliSDK",
@@ -1043,10 +1071,10 @@
 					"$(PROJECT_DIR)/WPay/AliSDK",
 					"$(PROJECT_DIR)/WPay/ThirdParty/AliSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rjs.liuliu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weiwei.tec;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "174d1ee2-c252-4da4-a522-99f368bb707b";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development com.rjs.liuliu";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "WPay/SupportingFiles/WPay-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1060,8 +1088,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 8BTUS4V99A;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38952CQSTY;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WPay/AliSDK",
@@ -1081,10 +1109,10 @@
 					"$(PROJECT_DIR)/WPay/AliSDK",
 					"$(PROJECT_DIR)/WPay/ThirdParty/AliSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rjs.liuliu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weiwei.tec;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "174d1ee2-c252-4da4-a522-99f368bb707b";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development com.rjs.liuliu";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "WPay/SupportingFiles/WPay-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
