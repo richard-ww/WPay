@@ -12,4 +12,5 @@ target 'WPay' do
     pod 'InputKit' #输入限制
     pod 'Format', '0.5.0' # Simple formatting syntax for decimal numbers, currency, mass, addresses, ordinal numbers and hexadecimal colors.
     
+    pod 'HCSStarRatingView', '~> 1.5' #slide star
 end

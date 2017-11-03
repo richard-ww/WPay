@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		921D3EB4817272F52CAE0C7F /* Pods_WPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D22508490546BDB58E6C83E /* Pods_WPay.framework */; };
+		ED0D48DF1FAC17250062A3BE /* MaterialSelectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D48DD1FAC17250062A3BE /* MaterialSelectVC.swift */; };
+		ED0D48E01FAC17250062A3BE /* MaterialSelectVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED0D48DE1FAC17250062A3BE /* MaterialSelectVC.xib */; };
+		ED0D48E31FAC17880062A3BE /* MaterialItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D48E11FAC17880062A3BE /* MaterialItemCell.swift */; };
+		ED0D48E41FAC17880062A3BE /* MaterialItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED0D48E21FAC17880062A3BE /* MaterialItemCell.xib */; };
+		ED0D48E71FAC40670062A3BE /* MaterialBuyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D48E51FAC40670062A3BE /* MaterialBuyVC.swift */; };
+		ED0D48E81FAC40670062A3BE /* MaterialBuyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED0D48E61FAC40670062A3BE /* MaterialBuyVC.xib */; };
+		ED0D48EB1FAC4DD80062A3BE /* MaterialOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D48E91FAC4DD80062A3BE /* MaterialOrderVC.swift */; };
+		ED0D48EC1FAC4DD80062A3BE /* MaterialOrderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED0D48EA1FAC4DD80062A3BE /* MaterialOrderVC.xib */; };
+		ED0D48EF1FAC4E8F0062A3BE /* MaterialOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D48ED1FAC4E8F0062A3BE /* MaterialOrderCell.swift */; };
+		ED0D48F01FAC4E8F0062A3BE /* MaterialOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED0D48EE1FAC4E8F0062A3BE /* MaterialOrderCell.xib */; };
 		ED28E4DF1FA1B0AC00ADFB2C /* IAPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ED28E4D11FA1B00100ADFB2C /* IAPManager.m */; };
 		ED28E4E01FA1B0B000ADFB2C /* SandBoxHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = ED28E4D31FA1B00100ADFB2C /* SandBoxHelper.m */; };
 		ED28E4E31FA1B1B300ADFB2C /* ApplePurchaseVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28E4E11FA1B1B300ADFB2C /* ApplePurchaseVController.swift */; };
@@ -28,6 +38,8 @@
 		ED49FA421FA1B7C3007BBC4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED49FA411FA1B7C3007BBC4B /* UIKit.framework */; };
 		ED49FA441FA1B7CC007BBC4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED49FA431FA1B7CC007BBC4B /* Foundation.framework */; };
 		ED6628921FA85C7E00ECBE25 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6628911FA85C7E00ECBE25 /* R.generated.swift */; };
+		ED67B7D31FAC5CB800533AAC /* CommentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67B7D11FAC5CB800533AAC /* CommentVC.swift */; };
+		ED67B7D41FAC5CB800533AAC /* CommentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED67B7D21FAC5CB800533AAC /* CommentVC.xib */; };
 		ED6AD0D41F99C0B50008871F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6AD0D31F99C0B50008871F /* AppDelegate.swift */; };
 		ED6AD0D61F99C0B50008871F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6AD0D51F99C0B50008871F /* ViewController.swift */; };
 		ED6AD0D91F99C0B50008871F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6AD0D71F99C0B50008871F /* Main.storyboard */; };
@@ -116,6 +128,16 @@
 		1D63645959CA2647BA043E6F /* Pods-WPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-WPay/Pods-WPay.release.xcconfig"; sourceTree = "<group>"; };
 		2D22508490546BDB58E6C83E /* Pods_WPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43120BC1EDDABE25C2E9C25 /* Pods-WPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WPay/Pods-WPay.debug.xcconfig"; sourceTree = "<group>"; };
+		ED0D48DD1FAC17250062A3BE /* MaterialSelectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialSelectVC.swift; sourceTree = "<group>"; };
+		ED0D48DE1FAC17250062A3BE /* MaterialSelectVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaterialSelectVC.xib; sourceTree = "<group>"; };
+		ED0D48E11FAC17880062A3BE /* MaterialItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialItemCell.swift; sourceTree = "<group>"; };
+		ED0D48E21FAC17880062A3BE /* MaterialItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaterialItemCell.xib; sourceTree = "<group>"; };
+		ED0D48E51FAC40670062A3BE /* MaterialBuyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialBuyVC.swift; sourceTree = "<group>"; };
+		ED0D48E61FAC40670062A3BE /* MaterialBuyVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaterialBuyVC.xib; sourceTree = "<group>"; };
+		ED0D48E91FAC4DD80062A3BE /* MaterialOrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialOrderVC.swift; sourceTree = "<group>"; };
+		ED0D48EA1FAC4DD80062A3BE /* MaterialOrderVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaterialOrderVC.xib; sourceTree = "<group>"; };
+		ED0D48ED1FAC4E8F0062A3BE /* MaterialOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialOrderCell.swift; sourceTree = "<group>"; };
+		ED0D48EE1FAC4E8F0062A3BE /* MaterialOrderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaterialOrderCell.xib; sourceTree = "<group>"; };
 		ED28E4D01FA1B00100ADFB2C /* IAPManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAPManager.h; sourceTree = "<group>"; };
 		ED28E4D11FA1B00100ADFB2C /* IAPManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IAPManager.m; sourceTree = "<group>"; };
 		ED28E4D21FA1B00100ADFB2C /* SandBoxHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandBoxHelper.h; sourceTree = "<group>"; };
@@ -139,6 +161,8 @@
 		ED49FA411FA1B7C3007BBC4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ED49FA431FA1B7CC007BBC4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ED6628911FA85C7E00ECBE25 /* R.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		ED67B7D11FAC5CB800533AAC /* CommentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentVC.swift; sourceTree = "<group>"; };
+		ED67B7D21FAC5CB800533AAC /* CommentVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentVC.xib; sourceTree = "<group>"; };
 		ED6AD0D01F99C0B50008871F /* WPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6AD0D31F99C0B50008871F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED6AD0D51F99C0B50008871F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -473,6 +497,14 @@
 				ED6FAA0B1FA9934F0015D962 /* cityCode.json */,
 				ED8AB06D1FAB5AB8001CFAE7 /* MaterialVC.swift */,
 				ED8AB06E1FAB5AB8001CFAE7 /* MaterialVC.xib */,
+				ED0D48DD1FAC17250062A3BE /* MaterialSelectVC.swift */,
+				ED0D48DE1FAC17250062A3BE /* MaterialSelectVC.xib */,
+				ED0D48E51FAC40670062A3BE /* MaterialBuyVC.swift */,
+				ED0D48E61FAC40670062A3BE /* MaterialBuyVC.xib */,
+				ED0D48E91FAC4DD80062A3BE /* MaterialOrderVC.swift */,
+				ED0D48EA1FAC4DD80062A3BE /* MaterialOrderVC.xib */,
+				ED67B7D11FAC5CB800533AAC /* CommentVC.swift */,
+				ED67B7D21FAC5CB800533AAC /* CommentVC.xib */,
 			);
 			path = Material;
 			sourceTree = "<group>";
@@ -560,6 +592,10 @@
 			children = (
 				ED8AB0721FAB5DBD001CFAE7 /* MaterialListCell.swift */,
 				ED8AB0731FAB5DBD001CFAE7 /* MaterialListCell.xib */,
+				ED0D48E11FAC17880062A3BE /* MaterialItemCell.swift */,
+				ED0D48E21FAC17880062A3BE /* MaterialItemCell.xib */,
+				ED0D48ED1FAC4E8F0062A3BE /* MaterialOrderCell.swift */,
+				ED0D48EE1FAC4E8F0062A3BE /* MaterialOrderCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -829,7 +865,7 @@
 				TargetAttributes = {
 					ED6AD0CF1F99C0B50008871F = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					ED6AD0E31F99C0B50008871F = {
 						CreatedOnToolsVersion = 9.0;
@@ -868,9 +904,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED0D48F01FAC4E8F0062A3BE /* MaterialOrderCell.xib in Resources */,
 				ED6FAA101FA99F770015D962 /* DesignerProductDetailVC.xib in Resources */,
 				ED8AB0421FAB5034001CFAE7 /* InsuranceVC.xib in Resources */,
 				EDA596A41FA9E78700EFA982 /* img165719ab05c30d4.jpg in Resources */,
+				ED0D48E81FAC40670062A3BE /* MaterialBuyVC.xib in Resources */,
 				ED6AD0DE1F99C0B50008871F /* LaunchScreen.storyboard in Resources */,
 				ED6AD0DB1F99C0B50008871F /* Assets.xcassets in Resources */,
 				EDD2B1681FA2C74100EFBC8D /* AlipaySDK.bundle in Resources */,
@@ -879,8 +917,12 @@
 				ED28E4F31FA1B46700ADFB2C /* HUDView.xib in Resources */,
 				ED8AB0461FAB505F001CFAE7 /* InsuranceInfoCell.xib in Resources */,
 				ED28E4E41FA1B1BB00ADFB2C /* ApplePurchaseVController.xib in Resources */,
+				ED0D48EC1FAC4DD80062A3BE /* MaterialOrderVC.xib in Resources */,
+				ED0D48E41FAC17880062A3BE /* MaterialItemCell.xib in Resources */,
 				ED8AB0481FAB5068001CFAE7 /* InsuranceTtitleCell.xib in Resources */,
 				ED8AB0751FAB5DBD001CFAE7 /* MaterialListCell.xib in Resources */,
+				ED0D48E01FAC17250062A3BE /* MaterialSelectVC.xib in Resources */,
+				ED67B7D41FAC5CB800533AAC /* CommentVC.xib in Resources */,
 				ED9421D21FA706DB00DBC8AF /* AddMorePersonVC.xib in Resources */,
 				EDA5969A1FA9CFB400EFA982 /* AutoImageCell.xib in Resources */,
 				ED9421CE1FA706BF00DBC8AF /* AddMorePersonCell.xib in Resources */,
@@ -951,6 +993,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WPay/Pods-WPay-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Format/Format.framework",
+				"${BUILT_PRODUCTS_DIR}/HCSStarRatingView/HCSStarRatingView.framework",
 				"${BUILT_PRODUCTS_DIR}/InputKit/InputKit.framework",
 				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -958,6 +1001,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Format.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HCSStarRatingView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InputKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -987,6 +1031,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED67B7D31FAC5CB800533AAC /* CommentVC.swift in Sources */,
 				ED8AB0241FAA1772001CFAE7 /* ConfigManager.swift in Sources */,
 				ED8AB06F1FAB5AB8001CFAE7 /* MaterialVC.swift in Sources */,
 				ED8AB0491FAB506B001CFAE7 /* InsurantPersonInfoCell.swift in Sources */,
@@ -995,6 +1040,7 @@
 				ED8AB0691FAB5826001CFAE7 /* PageLoadable.swift in Sources */,
 				ED28E4E31FA1B1B300ADFB2C /* ApplePurchaseVController.swift in Sources */,
 				ED8AB05F1FAB567C001CFAE7 /* PagingMenuController.swift in Sources */,
+				ED0D48E71FAC40670062A3BE /* MaterialBuyVC.swift in Sources */,
 				ED8AB0661FAB5826001CFAE7 /* MenuViewCustomizable.swift in Sources */,
 				ED6AD0D61F99C0B50008871F /* ViewController.swift in Sources */,
 				ED8AB05D1FAB5676001CFAE7 /* MenuItemView.swift in Sources */,
@@ -1007,11 +1053,13 @@
 				ED8AB03F1FAB5021001CFAE7 /* EnsureInsuranceVC.swift in Sources */,
 				EDD2B16E1FA2C75900EFBC8D /* NSDataEx.m in Sources */,
 				ED6628921FA85C7E00ECBE25 /* R.generated.swift in Sources */,
+				ED0D48EF1FAC4E8F0062A3BE /* MaterialOrderCell.swift in Sources */,
 				ED6FAA0F1FA99F770015D962 /* DesignerProductDetailVC.swift in Sources */,
 				ED6AD0D41F99C0B50008871F /* AppDelegate.swift in Sources */,
 				ED8AB0671FAB5826001CFAE7 /* Pagable.swift in Sources */,
 				ED9421D11FA706DB00DBC8AF /* AddMorePersonVC.swift in Sources */,
 				ED8AB0431FAB503C001CFAE7 /* InsuranceEditCell.swift in Sources */,
+				ED0D48DF1FAC17250062A3BE /* MaterialSelectVC.swift in Sources */,
 				ED8AB0621FAB581D001CFAE7 /* GestureHandler.swift in Sources */,
 				EDA596AC1FA9F32B00EFA982 /* AspectFitImageView.m in Sources */,
 				EDD2B16C1FA2C75200EFBC8D /* Order.m in Sources */,
@@ -1026,6 +1074,8 @@
 				ED8AB0741FAB5DBD001CFAE7 /* MaterialListCell.swift in Sources */,
 				ED8AB0631FAB5826001CFAE7 /* LabelSizeCalculatable.swift in Sources */,
 				ED8AB06C1FAB5826001CFAE7 /* ViewCleanable.swift in Sources */,
+				ED0D48EB1FAC4DD80062A3BE /* MaterialOrderVC.swift in Sources */,
+				ED0D48E31FAC17880062A3BE /* MaterialItemCell.swift in Sources */,
 				EDBC9BAC1FA858B60097DDE8 /* PersonModel.swift in Sources */,
 				EDD2B1701FA2C75F00EFBC8D /* RSADataSigner.m in Sources */,
 				ED8AB0681FAB5826001CFAE7 /* PageDetectable.swift in Sources */,
@@ -1202,8 +1252,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 38952CQSTY;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8BTUS4V99A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WPay/AliSDK",
@@ -1223,10 +1273,10 @@
 					"$(PROJECT_DIR)/WPay/AliSDK",
 					"$(PROJECT_DIR)/WPay/ThirdParty/AliSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.weiwei.tec;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rjs.liuliu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "9cffc549-c38c-44ce-97e7-825181a1e98e";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.rjs.liuliu";
 				SWIFT_OBJC_BRIDGING_HEADER = "WPay/SupportingFiles/WPay-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1240,8 +1290,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 38952CQSTY;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8BTUS4V99A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WPay/AliSDK",
@@ -1261,10 +1311,10 @@
 					"$(PROJECT_DIR)/WPay/AliSDK",
 					"$(PROJECT_DIR)/WPay/ThirdParty/AliSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.weiwei.tec;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rjs.liuliu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "9cffc549-c38c-44ce-97e7-825181a1e98e";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.rjs.liuliu";
 				SWIFT_OBJC_BRIDGING_HEADER = "WPay/SupportingFiles/WPay-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

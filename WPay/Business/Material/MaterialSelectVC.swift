@@ -1,17 +1,20 @@
 //
-//  MaterialVC.swift
+//  MaterialSelectVC.swift
 //  WPay
 //
-//  Created by Weiwei on 2017/11/2.
+//  Created by WeiWei on 2017/11/3.
 //  Copyright © 2017年 --. All rights reserved.
 //
 
 import UIKit
 
-class MaterialVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
-
+class MaterialSelectVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
     @IBOutlet weak var tableView: UITableView!
     
+    let dataArr = Array<String>()
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -28,26 +31,25 @@ class MaterialVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         self.tableView.dataSource = self
         self.tableView.delegate = self
         
-        self.tableView.separatorStyle = .none
-        self.tableView.rowHeight = 70
+        self.tableView.rowHeight = 55
         
-        self.tableView.register(R.nib.materialListCell(), forCellReuseIdentifier: R.nib.materialListCell.identifier)
+        self.tableView.register(R.nib.materialItemCell(), forCellReuseIdentifier: R.nib.materialItemCell.identifier)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return 7
+        return 10
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: R.nib.materialListCell.identifier) as! MaterialListCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: R.nib.materialItemCell.identifier) as! MaterialItemCell
         
         return cell
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    @IBAction func ensureBtnClicked(_ sender: Any) {
         
-        self.navigationController?.pushViewController(MaterialSelectVC(), animated: true)
+        self.navigationController?.pushViewController(MaterialOrderVC(), animated: true)
     }
 }
