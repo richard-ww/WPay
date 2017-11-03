@@ -19,7 +19,7 @@ class AutoImageCell: UITableViewCell {
         self.selectionStyle = .none
 
         self.imgView.imageWidth = Float(UIScreen.main.bounds.width - 20)
-        self.imgView.image = R.image.img17577f745777a97Jpg()
+        self.imgView.image = R.image.img165719ab05c30d4Jpg()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

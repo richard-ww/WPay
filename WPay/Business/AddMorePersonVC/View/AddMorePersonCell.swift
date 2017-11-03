@@ -73,7 +73,7 @@ class AddMorePersonCell: UITableViewCell, UITextFieldDelegate, UIPickerViewDataS
         self.model = model
         
         self.nameTextField.text     = model.name
-        self.cardTypeTextField.text = model.cardTypeStr
+//        self.cardTypeTextField.text = model.cardTypeStr
         self.cardNumTextField.text  = model.cardNumStr
         self.birthTextField.text    = model.birthStr
     }
@@ -137,7 +137,7 @@ extension AddMorePersonCell {
         
         // check success
         self.model.name         = self.nameTextField.text!
-        self.model.cardTypeStr  = self.cardTypeTextField.text!
+//        self.model.cardTypeStr  = self.cardTypeTextField.text!
         self.model.cardNumStr   = self.cardNumTextField.text!
         self.model.birthStr     = self.birthTextField.text!
         

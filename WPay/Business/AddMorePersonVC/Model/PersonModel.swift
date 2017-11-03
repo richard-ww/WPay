@@ -11,7 +11,6 @@ import UIKit
 class PersonModel: NSObject {
 
     var name         = String()
-    var cardTypeStr  = String()
     var cardNumStr   = String()
     var birthStr     = String()
 }
