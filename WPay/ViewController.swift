@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     @IBAction func iapBtnClicked(_ sender: Any) {
         
-        self.navigationController?.pushViewController(DesignerProductDetailVC(), animated: true)
+        self.navigationController?.pushViewController(ApplePurchaseVController(), animated: true)
     }
     
     @IBAction func alipayBtnClicked(_ sender: Any) {

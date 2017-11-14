@@ -1,24 +1,18 @@
 PODS:
-  - Format (0.5.0)
-  - InputKit (1.1.9)
   - R.swift (3.3.0):
     - R.swift.Library (~> 3.0.2)
   - R.swift.Library (3.0.2)
   - RxSwift (3.5.0)
 
 DEPENDENCIES:
-  - Format (= 0.5.0)
-  - InputKit
   - R.swift (= 3.3)
   - RxSwift (= 3.5)
 
 SPEC CHECKSUMS:
-  Format: b6966297bcb3af90774ad34a8ad756cb26ebd7e3
-  InputKit: b8f55e0bfe9e800275d205122c4b28521ab2c0c6
   R.swift: bde9704d50ff36820f49e266bc88ef545e1e9b36
   R.swift.Library: fbdec16c9802ad104fc1ba53415dc190e6ec5c73
   RxSwift: 18ee9d78b45edb3b0b7e79916b47a116e6dbc842
 
-PODFILE CHECKSUM: aeb9c1e5368f21d989456fb6ed6db815f7ae4fbc
+PODFILE CHECKSUM: a5a10553177fdca6d0d5c3e9a9ab6405e3d37d1b
 
 COCOAPODS: 1.3.1

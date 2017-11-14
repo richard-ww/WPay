@@ -24,6 +24,3 @@
 /// IAP
 #import "IAPManager.h"
 #import "SandBoxHelper.h"
-
-
-#import "AspectFitImageView.h"
