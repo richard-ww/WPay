@@ -22,7 +22,11 @@ class ViewController: UIViewController {
     
     @IBAction func iapBtnClicked(_ sender: Any) {
         
+<<<<<<< HEAD:WPay/ViewController.swift
         self.navigationController?.pushViewController(ApplePurchaseVController(), animated: true)
+=======
+        self.navigationController?.pushViewController(MaterialVC(), animated: true)
+>>>>>>> 5b433ced8262babab8ad58f996dcd4a5c5078087:WPay/Business/MainPay/ViewController.swift
     }
     
     @IBAction func alipayBtnClicked(_ sender: Any) {

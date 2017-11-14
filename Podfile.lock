@@ -1,18 +1,40 @@
 PODS:
+<<<<<<< HEAD
+=======
+  - Format (0.5.0)
+  - HCSStarRatingView (1.5)
+  - InputKit (1.1.9)
+>>>>>>> 5b433ced8262babab8ad58f996dcd4a5c5078087
   - R.swift (3.3.0):
     - R.swift.Library (~> 3.0.2)
   - R.swift.Library (3.0.2)
   - RxSwift (3.5.0)
 
 DEPENDENCIES:
+<<<<<<< HEAD
+=======
+  - Format (= 0.5.0)
+  - HCSStarRatingView (~> 1.5)
+  - InputKit
+>>>>>>> 5b433ced8262babab8ad58f996dcd4a5c5078087
   - R.swift (= 3.3)
   - RxSwift (= 3.5)
 
 SPEC CHECKSUMS:
+<<<<<<< HEAD
+=======
+  Format: b6966297bcb3af90774ad34a8ad756cb26ebd7e3
+  HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
+  InputKit: b8f55e0bfe9e800275d205122c4b28521ab2c0c6
+>>>>>>> 5b433ced8262babab8ad58f996dcd4a5c5078087
   R.swift: bde9704d50ff36820f49e266bc88ef545e1e9b36
   R.swift.Library: fbdec16c9802ad104fc1ba53415dc190e6ec5c73
   RxSwift: 18ee9d78b45edb3b0b7e79916b47a116e6dbc842
 
+<<<<<<< HEAD
 PODFILE CHECKSUM: a5a10553177fdca6d0d5c3e9a9ab6405e3d37d1b
+=======
+PODFILE CHECKSUM: b80f6b8ad1e09884a32470b59401706eca462d60
+>>>>>>> 5b433ced8262babab8ad58f996dcd4a5c5078087
 
 COCOAPODS: 1.3.1
