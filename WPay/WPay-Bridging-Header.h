@@ -24,8 +24,11 @@
 /// IAP
 #import "IAPManager.h"
 #import "SandBoxHelper.h"
+<<<<<<< HEAD:WPay/WPay-Bridging-Header.h
+=======
 
 
 #import "AspectFitImageView.h"
 
 
+>>>>>>> 5b433ced8262babab8ad58f996dcd4a5c5078087:WPay/SupportingFiles/WPay-Bridging-Header.h
