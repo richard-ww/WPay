@@ -1,15 +1,15 @@
 //
-//  WPayTests.swift
-//  WPayTests
+//  TempTests.swift
+//  TempTests
 //
-//  Created by Weiwei on 2018/9/14.
+//  Created by Weiwei on 2018/8/6.
 //  Copyright © 2018年 iLabs. All rights reserved.
 //
 
 import XCTest
-@testable import WPay
+@testable import Temp
 
-class WPayTests: XCTestCase {
+class TempTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
