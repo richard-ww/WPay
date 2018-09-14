@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4AA577CD01E1CBFEE93B025 /* Pods_WPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8315170839F21D55B856B083 /* Pods_WPay.framework */; };
+		C4938A7DA0CB53194A99F979 /* Pods_WPayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465A9FF257B588BD608FA6D8 /* Pods_WPayUITests.framework */; };
+		C52142CFC6CBB5A2FF2B7DD3 /* Pods_WPayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E022151A0D1C278FF7F14A0 /* Pods_WPayTests.framework */; };
 		EDAC3E50214BF09F00CD6CC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAC3E4F214BF09F00CD6CC4 /* AppDelegate.swift */; };
 		EDAC3E52214BF09F00CD6CC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAC3E51214BF09F00CD6CC4 /* ViewController.swift */; };
 		EDAC3E55214BF09F00CD6CC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAC3E53214BF09F00CD6CC4 /* Main.storyboard */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E022151A0D1C278FF7F14A0 /* Pods_WPayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36582F1FCE38C53E64B06167 /* Pods-WPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-WPay/Pods-WPay.release.xcconfig"; sourceTree = "<group>"; };
+		44927DD11EE086AB80EDEC9E /* Pods-WPayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WPayTests/Pods-WPayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		465A9FF257B588BD608FA6D8 /* Pods_WPayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53405559066EE0C084B48C24 /* Pods-WPayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WPayTests/Pods-WPayTests.release.xcconfig"; sourceTree = "<group>"; };
+		8315170839F21D55B856B083 /* Pods_WPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB481FCB2F741CE56B806168 /* Pods-WPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WPay/Pods-WPay.debug.xcconfig"; sourceTree = "<group>"; };
+		CD126FEE73E33C135D3342CF /* Pods-WPayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WPayUITests/Pods-WPayUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EDAC3E4C214BF09F00CD6CC4 /* WPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDAC3E4F214BF09F00CD6CC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDAC3E51214BF09F00CD6CC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		EDAC3E6B214BF0A000CD6CC4 /* WPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDAC3E6F214BF0A000CD6CC4 /* WPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPayUITests.swift; sourceTree = "<group>"; };
 		EDAC3E71214BF0A000CD6CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEDCB9B4C83FED8484AE56E2 /* Pods-WPayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WPayUITests/Pods-WPayUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4AA577CD01E1CBFEE93B025 /* Pods_WPay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C52142CFC6CBB5A2FF2B7DD3 /* Pods_WPayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4938A7DA0CB53194A99F979 /* Pods_WPayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CC42395C1C4F687A5DF3DDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB481FCB2F741CE56B806168 /* Pods-WPay.debug.xcconfig */,
+				36582F1FCE38C53E64B06167 /* Pods-WPay.release.xcconfig */,
+				44927DD11EE086AB80EDEC9E /* Pods-WPayTests.debug.xcconfig */,
+				53405559066EE0C084B48C24 /* Pods-WPayTests.release.xcconfig */,
+				FEDCB9B4C83FED8484AE56E2 /* Pods-WPayUITests.debug.xcconfig */,
+				CD126FEE73E33C135D3342CF /* Pods-WPayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92C1D66DC4F71DA3799C21B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8315170839F21D55B856B083 /* Pods_WPay.framework */,
+				2E022151A0D1C278FF7F14A0 /* Pods_WPayTests.framework */,
+				465A9FF257B588BD608FA6D8 /* Pods_WPayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EDAC3E43214BF09F00CD6CC4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				EDAC3E63214BF0A000CD6CC4 /* WPayTests */,
 				EDAC3E6E214BF0A000CD6CC4 /* WPayUITests */,
 				EDAC3E4D214BF09F00CD6CC4 /* Products */,
+				2CC42395C1C4F687A5DF3DDD /* Pods */,
+				92C1D66DC4F71DA3799C21B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDAC3E74214BF0A000CD6CC4 /* Build configuration list for PBXNativeTarget "WPay" */;
 			buildPhases = (
+				5034BAAB8CC902DF2C115C64 /* [CP] Check Pods Manifest.lock */,
 				EDAC3E48214BF09F00CD6CC4 /* Sources */,
 				EDAC3E49214BF09F00CD6CC4 /* Frameworks */,
 				EDAC3E4A214BF09F00CD6CC4 /* Resources */,
@@ -149,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDAC3E77214BF0A000CD6CC4 /* Build configuration list for PBXNativeTarget "WPayTests" */;
 			buildPhases = (
+				0B300AD651901F5E0918E59B /* [CP] Check Pods Manifest.lock */,
 				EDAC3E5C214BF0A000CD6CC4 /* Sources */,
 				EDAC3E5D214BF0A000CD6CC4 /* Frameworks */,
 				EDAC3E5E214BF0A000CD6CC4 /* Resources */,
@@ -167,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDAC3E7A214BF0A000CD6CC4 /* Build configuration list for PBXNativeTarget "WPayUITests" */;
 			buildPhases = (
+				01126F943604445F3ADF216B /* [CP] Check Pods Manifest.lock */,
 				EDAC3E67214BF0A000CD6CC4 /* Sources */,
 				EDAC3E68214BF0A000CD6CC4 /* Frameworks */,
 				EDAC3E69214BF0A000CD6CC4 /* Resources */,
@@ -250,6 +293,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01126F943604445F3ADF216B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WPayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B300AD651901F5E0918E59B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WPayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5034BAAB8CC902DF2C115C64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WPay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EDAC3E48214BF09F00CD6CC4 /* Sources */ = {
@@ -428,6 +528,7 @@
 		};
 		EDAC3E75214BF0A000CD6CC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB481FCB2F741CE56B806168 /* Pods-WPay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +546,7 @@
 		};
 		EDAC3E76214BF0A000CD6CC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36582F1FCE38C53E64B06167 /* Pods-WPay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +564,7 @@
 		};
 		EDAC3E78214BF0A000CD6CC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44927DD11EE086AB80EDEC9E /* Pods-WPayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +585,7 @@
 		};
 		EDAC3E79214BF0A000CD6CC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53405559066EE0C084B48C24 /* Pods-WPayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +606,7 @@
 		};
 		EDAC3E7B214BF0A000CD6CC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEDCB9B4C83FED8484AE56E2 /* Pods-WPayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +626,7 @@
 		};
 		EDAC3E7C214BF0A000CD6CC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD126FEE73E33C135D3342CF /* Pods-WPayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
