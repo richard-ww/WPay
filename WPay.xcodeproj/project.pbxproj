@@ -7,64 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EDAC3E16214BEFA100CD6CC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAC3E15214BEFA100CD6CC4 /* AppDelegate.swift */; };
-		EDAC3E18214BEFA100CD6CC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAC3E17214BEFA100CD6CC4 /* ViewController.swift */; };
-		EDAC3E1B214BEFA100CD6CC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAC3E19214BEFA100CD6CC4 /* Main.storyboard */; };
-		EDAC3E1D214BEFA300CD6CC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDAC3E1C214BEFA300CD6CC4 /* Assets.xcassets */; };
-		EDAC3E20214BEFA300CD6CC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAC3E1E214BEFA300CD6CC4 /* LaunchScreen.storyboard */; };
-		EDAC3E2B214BEFA300CD6CC4 /* WPay1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAC3E2A214BEFA300CD6CC4 /* WPay1Tests.swift */; };
-		EDAC3E36214BEFA300CD6CC4 /* WPay1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAC3E35214BEFA300CD6CC4 /* WPay1UITests.swift */; };
+		EDAC3E50214BF09F00CD6CC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAC3E4F214BF09F00CD6CC4 /* AppDelegate.swift */; };
+		EDAC3E52214BF09F00CD6CC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAC3E51214BF09F00CD6CC4 /* ViewController.swift */; };
+		EDAC3E55214BF09F00CD6CC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAC3E53214BF09F00CD6CC4 /* Main.storyboard */; };
+		EDAC3E57214BF0A000CD6CC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDAC3E56214BF0A000CD6CC4 /* Assets.xcassets */; };
+		EDAC3E5A214BF0A000CD6CC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAC3E58214BF0A000CD6CC4 /* LaunchScreen.storyboard */; };
+		EDAC3E65214BF0A000CD6CC4 /* WPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAC3E64214BF0A000CD6CC4 /* WPayTests.swift */; };
+		EDAC3E70214BF0A000CD6CC4 /* WPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAC3E6F214BF0A000CD6CC4 /* WPayUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EDAC3E27214BEFA300CD6CC4 /* PBXContainerItemProxy */ = {
+		EDAC3E61214BF0A000CD6CC4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EDAC3E0A214BEFA100CD6CC4 /* Project object */;
+			containerPortal = EDAC3E44214BF09F00CD6CC4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EDAC3E11214BEFA100CD6CC4;
-			remoteInfo = WPay1;
+			remoteGlobalIDString = EDAC3E4B214BF09F00CD6CC4;
+			remoteInfo = WPay;
 		};
-		EDAC3E32214BEFA300CD6CC4 /* PBXContainerItemProxy */ = {
+		EDAC3E6C214BF0A000CD6CC4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EDAC3E0A214BEFA100CD6CC4 /* Project object */;
+			containerPortal = EDAC3E44214BF09F00CD6CC4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EDAC3E11214BEFA100CD6CC4;
-			remoteInfo = WPay1;
+			remoteGlobalIDString = EDAC3E4B214BF09F00CD6CC4;
+			remoteInfo = WPay;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EDAC3E12214BEFA100CD6CC4 /* WPay1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPay1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDAC3E15214BEFA100CD6CC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EDAC3E17214BEFA100CD6CC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EDAC3E1A214BEFA100CD6CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EDAC3E1C214BEFA300CD6CC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EDAC3E1F214BEFA300CD6CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EDAC3E21214BEFA300CD6CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDAC3E26214BEFA300CD6CC4 /* WPay1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPay1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDAC3E2A214BEFA300CD6CC4 /* WPay1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPay1Tests.swift; sourceTree = "<group>"; };
-		EDAC3E2C214BEFA300CD6CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDAC3E31214BEFA300CD6CC4 /* WPay1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPay1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDAC3E35214BEFA300CD6CC4 /* WPay1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPay1UITests.swift; sourceTree = "<group>"; };
-		EDAC3E37214BEFA300CD6CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAC3E4C214BF09F00CD6CC4 /* WPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAC3E4F214BF09F00CD6CC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDAC3E51214BF09F00CD6CC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDAC3E54214BF09F00CD6CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDAC3E56214BF0A000CD6CC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDAC3E59214BF0A000CD6CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDAC3E5B214BF0A000CD6CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAC3E60214BF0A000CD6CC4 /* WPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAC3E64214BF0A000CD6CC4 /* WPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPayTests.swift; sourceTree = "<group>"; };
+		EDAC3E66214BF0A000CD6CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAC3E6B214BF0A000CD6CC4 /* WPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAC3E6F214BF0A000CD6CC4 /* WPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPayUITests.swift; sourceTree = "<group>"; };
+		EDAC3E71214BF0A000CD6CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EDAC3E0F214BEFA100CD6CC4 /* Frameworks */ = {
+		EDAC3E49214BF09F00CD6CC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDAC3E23214BEFA300CD6CC4 /* Frameworks */ = {
+		EDAC3E5D214BF0A000CD6CC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDAC3E2E214BEFA300CD6CC4 /* Frameworks */ = {
+		EDAC3E68214BF0A000CD6CC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,137 +74,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EDAC3E09214BEFA100CD6CC4 = {
+		EDAC3E43214BF09F00CD6CC4 = {
 			isa = PBXGroup;
 			children = (
-				EDAC3E14214BEFA100CD6CC4 /* WPay1 */,
-				EDAC3E29214BEFA300CD6CC4 /* WPay1Tests */,
-				EDAC3E34214BEFA300CD6CC4 /* WPay1UITests */,
-				EDAC3E13214BEFA100CD6CC4 /* Products */,
+				EDAC3E4E214BF09F00CD6CC4 /* WPay */,
+				EDAC3E63214BF0A000CD6CC4 /* WPayTests */,
+				EDAC3E6E214BF0A000CD6CC4 /* WPayUITests */,
+				EDAC3E4D214BF09F00CD6CC4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EDAC3E13214BEFA100CD6CC4 /* Products */ = {
+		EDAC3E4D214BF09F00CD6CC4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EDAC3E12214BEFA100CD6CC4 /* WPay1.app */,
-				EDAC3E26214BEFA300CD6CC4 /* WPay1Tests.xctest */,
-				EDAC3E31214BEFA300CD6CC4 /* WPay1UITests.xctest */,
+				EDAC3E4C214BF09F00CD6CC4 /* WPay.app */,
+				EDAC3E60214BF0A000CD6CC4 /* WPayTests.xctest */,
+				EDAC3E6B214BF0A000CD6CC4 /* WPayUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EDAC3E14214BEFA100CD6CC4 /* WPay1 */ = {
+		EDAC3E4E214BF09F00CD6CC4 /* WPay */ = {
 			isa = PBXGroup;
 			children = (
-				EDAC3E15214BEFA100CD6CC4 /* AppDelegate.swift */,
-				EDAC3E17214BEFA100CD6CC4 /* ViewController.swift */,
-				EDAC3E19214BEFA100CD6CC4 /* Main.storyboard */,
-				EDAC3E1C214BEFA300CD6CC4 /* Assets.xcassets */,
-				EDAC3E1E214BEFA300CD6CC4 /* LaunchScreen.storyboard */,
-				EDAC3E21214BEFA300CD6CC4 /* Info.plist */,
+				EDAC3E4F214BF09F00CD6CC4 /* AppDelegate.swift */,
+				EDAC3E51214BF09F00CD6CC4 /* ViewController.swift */,
+				EDAC3E53214BF09F00CD6CC4 /* Main.storyboard */,
+				EDAC3E56214BF0A000CD6CC4 /* Assets.xcassets */,
+				EDAC3E58214BF0A000CD6CC4 /* LaunchScreen.storyboard */,
+				EDAC3E5B214BF0A000CD6CC4 /* Info.plist */,
 			);
-			path = WPay1;
+			path = WPay;
 			sourceTree = "<group>";
 		};
-		EDAC3E29214BEFA300CD6CC4 /* WPay1Tests */ = {
+		EDAC3E63214BF0A000CD6CC4 /* WPayTests */ = {
 			isa = PBXGroup;
 			children = (
-				EDAC3E2A214BEFA300CD6CC4 /* WPay1Tests.swift */,
-				EDAC3E2C214BEFA300CD6CC4 /* Info.plist */,
+				EDAC3E64214BF0A000CD6CC4 /* WPayTests.swift */,
+				EDAC3E66214BF0A000CD6CC4 /* Info.plist */,
 			);
-			path = WPay1Tests;
+			path = WPayTests;
 			sourceTree = "<group>";
 		};
-		EDAC3E34214BEFA300CD6CC4 /* WPay1UITests */ = {
+		EDAC3E6E214BF0A000CD6CC4 /* WPayUITests */ = {
 			isa = PBXGroup;
 			children = (
-				EDAC3E35214BEFA300CD6CC4 /* WPay1UITests.swift */,
-				EDAC3E37214BEFA300CD6CC4 /* Info.plist */,
+				EDAC3E6F214BF0A000CD6CC4 /* WPayUITests.swift */,
+				EDAC3E71214BF0A000CD6CC4 /* Info.plist */,
 			);
-			path = WPay1UITests;
+			path = WPayUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EDAC3E11214BEFA100CD6CC4 /* WPay1 */ = {
+		EDAC3E4B214BF09F00CD6CC4 /* WPay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDAC3E3A214BEFA300CD6CC4 /* Build configuration list for PBXNativeTarget "WPay1" */;
+			buildConfigurationList = EDAC3E74214BF0A000CD6CC4 /* Build configuration list for PBXNativeTarget "WPay" */;
 			buildPhases = (
-				EDAC3E0E214BEFA100CD6CC4 /* Sources */,
-				EDAC3E0F214BEFA100CD6CC4 /* Frameworks */,
-				EDAC3E10214BEFA100CD6CC4 /* Resources */,
+				EDAC3E48214BF09F00CD6CC4 /* Sources */,
+				EDAC3E49214BF09F00CD6CC4 /* Frameworks */,
+				EDAC3E4A214BF09F00CD6CC4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WPay1;
-			productName = WPay1;
-			productReference = EDAC3E12214BEFA100CD6CC4 /* WPay1.app */;
+			name = WPay;
+			productName = WPay;
+			productReference = EDAC3E4C214BF09F00CD6CC4 /* WPay.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EDAC3E25214BEFA300CD6CC4 /* WPay1Tests */ = {
+		EDAC3E5F214BF0A000CD6CC4 /* WPayTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDAC3E3D214BEFA300CD6CC4 /* Build configuration list for PBXNativeTarget "WPay1Tests" */;
+			buildConfigurationList = EDAC3E77214BF0A000CD6CC4 /* Build configuration list for PBXNativeTarget "WPayTests" */;
 			buildPhases = (
-				EDAC3E22214BEFA300CD6CC4 /* Sources */,
-				EDAC3E23214BEFA300CD6CC4 /* Frameworks */,
-				EDAC3E24214BEFA300CD6CC4 /* Resources */,
+				EDAC3E5C214BF0A000CD6CC4 /* Sources */,
+				EDAC3E5D214BF0A000CD6CC4 /* Frameworks */,
+				EDAC3E5E214BF0A000CD6CC4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EDAC3E28214BEFA300CD6CC4 /* PBXTargetDependency */,
+				EDAC3E62214BF0A000CD6CC4 /* PBXTargetDependency */,
 			);
-			name = WPay1Tests;
-			productName = WPay1Tests;
-			productReference = EDAC3E26214BEFA300CD6CC4 /* WPay1Tests.xctest */;
+			name = WPayTests;
+			productName = WPayTests;
+			productReference = EDAC3E60214BF0A000CD6CC4 /* WPayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EDAC3E30214BEFA300CD6CC4 /* WPay1UITests */ = {
+		EDAC3E6A214BF0A000CD6CC4 /* WPayUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDAC3E40214BEFA300CD6CC4 /* Build configuration list for PBXNativeTarget "WPay1UITests" */;
+			buildConfigurationList = EDAC3E7A214BF0A000CD6CC4 /* Build configuration list for PBXNativeTarget "WPayUITests" */;
 			buildPhases = (
-				EDAC3E2D214BEFA300CD6CC4 /* Sources */,
-				EDAC3E2E214BEFA300CD6CC4 /* Frameworks */,
-				EDAC3E2F214BEFA300CD6CC4 /* Resources */,
+				EDAC3E67214BF0A000CD6CC4 /* Sources */,
+				EDAC3E68214BF0A000CD6CC4 /* Frameworks */,
+				EDAC3E69214BF0A000CD6CC4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EDAC3E33214BEFA300CD6CC4 /* PBXTargetDependency */,
+				EDAC3E6D214BF0A000CD6CC4 /* PBXTargetDependency */,
 			);
-			name = WPay1UITests;
-			productName = WPay1UITests;
-			productReference = EDAC3E31214BEFA300CD6CC4 /* WPay1UITests.xctest */;
+			name = WPayUITests;
+			productName = WPayUITests;
+			productReference = EDAC3E6B214BF0A000CD6CC4 /* WPayUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EDAC3E0A214BEFA100CD6CC4 /* Project object */ = {
+		EDAC3E44214BF09F00CD6CC4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = iLabs;
 				TargetAttributes = {
-					EDAC3E11214BEFA100CD6CC4 = {
+					EDAC3E4B214BF09F00CD6CC4 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					EDAC3E25214BEFA300CD6CC4 = {
+					EDAC3E5F214BF0A000CD6CC4 = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = EDAC3E11214BEFA100CD6CC4;
+						TestTargetID = EDAC3E4B214BF09F00CD6CC4;
 					};
-					EDAC3E30214BEFA300CD6CC4 = {
+					EDAC3E6A214BF0A000CD6CC4 = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = EDAC3E11214BEFA100CD6CC4;
+						TestTargetID = EDAC3E4B214BF09F00CD6CC4;
 					};
 				};
 			};
-			buildConfigurationList = EDAC3E0D214BEFA100CD6CC4 /* Build configuration list for PBXProject "WPay1" */;
+			buildConfigurationList = EDAC3E47214BF09F00CD6CC4 /* Build configuration list for PBXProject "WPay" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = EDAC3E09214BEFA100CD6CC4;
-			productRefGroup = EDAC3E13214BEFA100CD6CC4 /* Products */;
+			mainGroup = EDAC3E43214BF09F00CD6CC4;
+			productRefGroup = EDAC3E4D214BF09F00CD6CC4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EDAC3E11214BEFA100CD6CC4 /* WPay1 */,
-				EDAC3E25214BEFA300CD6CC4 /* WPay1Tests */,
-				EDAC3E30214BEFA300CD6CC4 /* WPay1UITests */,
+				EDAC3E4B214BF09F00CD6CC4 /* WPay */,
+				EDAC3E5F214BF0A000CD6CC4 /* WPayTests */,
+				EDAC3E6A214BF0A000CD6CC4 /* WPayUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EDAC3E10214BEFA100CD6CC4 /* Resources */ = {
+		EDAC3E4A214BF09F00CD6CC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDAC3E20214BEFA300CD6CC4 /* LaunchScreen.storyboard in Resources */,
-				EDAC3E1D214BEFA300CD6CC4 /* Assets.xcassets in Resources */,
-				EDAC3E1B214BEFA100CD6CC4 /* Main.storyboard in Resources */,
+				EDAC3E5A214BF0A000CD6CC4 /* LaunchScreen.storyboard in Resources */,
+				EDAC3E57214BF0A000CD6CC4 /* Assets.xcassets in Resources */,
+				EDAC3E55214BF09F00CD6CC4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDAC3E24214BEFA300CD6CC4 /* Resources */ = {
+		EDAC3E5E214BF0A000CD6CC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDAC3E2F214BEFA300CD6CC4 /* Resources */ = {
+		EDAC3E69214BF0A000CD6CC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,59 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EDAC3E0E214BEFA100CD6CC4 /* Sources */ = {
+		EDAC3E48214BF09F00CD6CC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDAC3E18214BEFA100CD6CC4 /* ViewController.swift in Sources */,
-				EDAC3E16214BEFA100CD6CC4 /* AppDelegate.swift in Sources */,
+				EDAC3E52214BF09F00CD6CC4 /* ViewController.swift in Sources */,
+				EDAC3E50214BF09F00CD6CC4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDAC3E22214BEFA300CD6CC4 /* Sources */ = {
+		EDAC3E5C214BF0A000CD6CC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDAC3E2B214BEFA300CD6CC4 /* WPay1Tests.swift in Sources */,
+				EDAC3E65214BF0A000CD6CC4 /* WPayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDAC3E2D214BEFA300CD6CC4 /* Sources */ = {
+		EDAC3E67214BF0A000CD6CC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDAC3E36214BEFA300CD6CC4 /* WPay1UITests.swift in Sources */,
+				EDAC3E70214BF0A000CD6CC4 /* WPayUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EDAC3E28214BEFA300CD6CC4 /* PBXTargetDependency */ = {
+		EDAC3E62214BF0A000CD6CC4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EDAC3E11214BEFA100CD6CC4 /* WPay1 */;
-			targetProxy = EDAC3E27214BEFA300CD6CC4 /* PBXContainerItemProxy */;
+			target = EDAC3E4B214BF09F00CD6CC4 /* WPay */;
+			targetProxy = EDAC3E61214BF0A000CD6CC4 /* PBXContainerItemProxy */;
 		};
-		EDAC3E33214BEFA300CD6CC4 /* PBXTargetDependency */ = {
+		EDAC3E6D214BF0A000CD6CC4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EDAC3E11214BEFA100CD6CC4 /* WPay1 */;
-			targetProxy = EDAC3E32214BEFA300CD6CC4 /* PBXContainerItemProxy */;
+			target = EDAC3E4B214BF09F00CD6CC4 /* WPay */;
+			targetProxy = EDAC3E6C214BF0A000CD6CC4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EDAC3E19214BEFA100CD6CC4 /* Main.storyboard */ = {
+		EDAC3E53214BF09F00CD6CC4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EDAC3E1A214BEFA100CD6CC4 /* Base */,
+				EDAC3E54214BF09F00CD6CC4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EDAC3E1E214BEFA300CD6CC4 /* LaunchScreen.storyboard */ = {
+		EDAC3E58214BF0A000CD6CC4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EDAC3E1F214BEFA300CD6CC4 /* Base */,
+				EDAC3E59214BF0A000CD6CC4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EDAC3E38214BEFA300CD6CC4 /* Debug */ = {
+		EDAC3E72214BF0A000CD6CC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -372,7 +372,7 @@
 			};
 			name = Debug;
 		};
-		EDAC3E39214BEFA300CD6CC4 /* Release */ = {
+		EDAC3E73214BF0A000CD6CC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -426,158 +426,158 @@
 			};
 			name = Release;
 		};
-		EDAC3E3B214BEFA300CD6CC4 /* Debug */ = {
+		EDAC3E75214BF0A000CD6CC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WPay1/Info.plist;
+				INFOPLIST_FILE = WPay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = iLabs.WPay1;
+				PRODUCT_BUNDLE_IDENTIFIER = iLabs.WPay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		EDAC3E3C214BEFA300CD6CC4 /* Release */ = {
+		EDAC3E76214BF0A000CD6CC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WPay1/Info.plist;
+				INFOPLIST_FILE = WPay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = iLabs.WPay1;
+				PRODUCT_BUNDLE_IDENTIFIER = iLabs.WPay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		EDAC3E3E214BEFA300CD6CC4 /* Debug */ = {
+		EDAC3E78214BF0A000CD6CC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WPay1Tests/Info.plist;
+				INFOPLIST_FILE = WPayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = iLabs.WPay1Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = iLabs.WPayTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPay1.app/WPay1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPay.app/WPay";
 			};
 			name = Debug;
 		};
-		EDAC3E3F214BEFA300CD6CC4 /* Release */ = {
+		EDAC3E79214BF0A000CD6CC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WPay1Tests/Info.plist;
+				INFOPLIST_FILE = WPayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = iLabs.WPay1Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = iLabs.WPayTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPay1.app/WPay1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPay.app/WPay";
 			};
 			name = Release;
 		};
-		EDAC3E41214BEFA300CD6CC4 /* Debug */ = {
+		EDAC3E7B214BF0A000CD6CC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WPay1UITests/Info.plist;
+				INFOPLIST_FILE = WPayUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = iLabs.WPay1UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = iLabs.WPayUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WPay1;
+				TEST_TARGET_NAME = WPay;
 			};
 			name = Debug;
 		};
-		EDAC3E42214BEFA300CD6CC4 /* Release */ = {
+		EDAC3E7C214BF0A000CD6CC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WPay1UITests/Info.plist;
+				INFOPLIST_FILE = WPayUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = iLabs.WPay1UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = iLabs.WPayUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WPay1;
+				TEST_TARGET_NAME = WPay;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EDAC3E0D214BEFA100CD6CC4 /* Build configuration list for PBXProject "WPay1" */ = {
+		EDAC3E47214BF09F00CD6CC4 /* Build configuration list for PBXProject "WPay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDAC3E38214BEFA300CD6CC4 /* Debug */,
-				EDAC3E39214BEFA300CD6CC4 /* Release */,
+				EDAC3E72214BF0A000CD6CC4 /* Debug */,
+				EDAC3E73214BF0A000CD6CC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDAC3E3A214BEFA300CD6CC4 /* Build configuration list for PBXNativeTarget "WPay1" */ = {
+		EDAC3E74214BF0A000CD6CC4 /* Build configuration list for PBXNativeTarget "WPay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDAC3E3B214BEFA300CD6CC4 /* Debug */,
-				EDAC3E3C214BEFA300CD6CC4 /* Release */,
+				EDAC3E75214BF0A000CD6CC4 /* Debug */,
+				EDAC3E76214BF0A000CD6CC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDAC3E3D214BEFA300CD6CC4 /* Build configuration list for PBXNativeTarget "WPay1Tests" */ = {
+		EDAC3E77214BF0A000CD6CC4 /* Build configuration list for PBXNativeTarget "WPayTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDAC3E3E214BEFA300CD6CC4 /* Debug */,
-				EDAC3E3F214BEFA300CD6CC4 /* Release */,
+				EDAC3E78214BF0A000CD6CC4 /* Debug */,
+				EDAC3E79214BF0A000CD6CC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDAC3E40214BEFA300CD6CC4 /* Build configuration list for PBXNativeTarget "WPay1UITests" */ = {
+		EDAC3E7A214BF0A000CD6CC4 /* Build configuration list for PBXNativeTarget "WPayUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDAC3E41214BEFA300CD6CC4 /* Debug */,
-				EDAC3E42214BEFA300CD6CC4 /* Release */,
+				EDAC3E7B214BF0A000CD6CC4 /* Debug */,
+				EDAC3E7C214BF0A000CD6CC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EDAC3E0A214BEFA100CD6CC4 /* Project object */;
+	rootObject = EDAC3E44214BF09F00CD6CC4 /* Project object */;
 }

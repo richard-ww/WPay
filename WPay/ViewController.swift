@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  WPay1
+//  WPay
 //
 //  Created by Weiwei on 2018/9/14.
 //  Copyright © 2018年 iLabs. All rights reserved.
